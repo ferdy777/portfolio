@@ -1,0 +1,11 @@
+@use "./variables" as *;
+
+@function color($color-name) {
+  @return map-get($colors, $color-name);
+}
+@function color($font-name) {
+  @return map-get($fontsize, $font-name);
+}
+@function color($value) {
+  @return map-get($breakpoints, $value);
+}

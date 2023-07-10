@@ -1,0 +1,8 @@
+@mixin maxwidth($arg) {
+  @media screen and (max-width: $arg) {
+    @content;
+  }
+}
+
+@mixin container {
+}
